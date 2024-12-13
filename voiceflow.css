@@ -1,5 +1,10 @@
-button.vfrc-launcher {
-    background-color: #C8B274 !important; /* Gold background */
-    color: #FFFFFF !important; /* Optional: White icon for contrast */
-    border: none !important; /* Remove border if necessary */
+div.vfrc-widget--launcher button.vfrc-launcher {
+    background-color: #C8B274 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    transition: background-color 0.3s ease; /* Optional: Smooth transition */
+}
+
+div.vfrc-widget--launcher button.vfrc-launcher:hover {
+    background-color: #D4A656 !important; /* Lighter gold on hover */
 }
