@@ -1,15 +1,5 @@
-/* Change the launcher background color */
-[id^="vf-widget-launcher"] {
+button.vfrc-launcher {
     background-color: #C8B274 !important; /* Gold background */
     color: #FFFFFF !important; /* Optional: White icon for contrast */
-}
-
-/* Optional: Customize other parts of the chat widget */
-.vfrc-header {
-    background-color: #03A1BE !important; /* Header background (blue) */
-}
-
-.vfrc-message-button {
-    background-color: #03A1BE !important; /* Button background (blue) */
-    color: #FFFFFF !important; /* Button text color (white) */
+    border: none !important; /* Remove border if necessary */
 }
