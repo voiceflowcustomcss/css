@@ -1,10 +1,16 @@
-div.vfrc-widget--launcher button.vfrc-launcher {
-    background-color: #C8B274 !important;
-    color: #FFFFFF !important;
-    border: none !important;
-    transition: background-color 0.3s ease; /* Optional: Smooth transition */
+/* 1) Normalzustand des Buttons */
+*[class*="vfrc-launcher"] {
+  background-color: #C8B274 !important; /* Gold */
+  color: #ffffff !important;
+  border: none !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Optional */
 }
 
-div.vfrc-widget--launcher button.vfrc-launcher:hover {
-    background-color: #D4A656 !important; /* Lighter gold on hover */
+/* 2) Hover-Effekt */
+*[class*="vfrc-launcher"]:hover {
+  background-color: #D4A656 !important; /* Hellere Gold-Nuance */
 }
+
+/* (Optional) Falls du noch andere vfrc-Elemente stylen willst, 
+   kannst du hier ebenfalls Selektoren ergänzen */
